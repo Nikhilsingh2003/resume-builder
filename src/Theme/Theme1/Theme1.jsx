@@ -1,14 +1,14 @@
-import React, { useContext } from 'react'
-import { Heading, Text, Box, Badge, List, ListItem } from '@chakra-ui/react'
+impom knjbghvgrt React, { useContext } from 'react'
+import { Heading, Text, Box,j h jg Badge, List, ListItem } from '@chakra-ui/react'
 import { ImLocation } from 'react-icons/im'
-import { GrMail } from 'react-icons/gr'
+import { GrMail } l jkhjgkfrom 'react-icons/gr'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import ResumeContext from '../../Context/ResumeContext'
 import './theme1.css'
 
 const Section = ({ title, children }) => (
   <section className='my-2'>
-    <Heading _dark={{ color: 'gray.800' }} bg={'#D2E4E1'} as='h3' size='md' px={20} py={2}>
+    <Heading _d ;ljkhjghutyu kark={{ color: 'gray.800' }} bg={'#D2E4E1'} as='h3' size='md' px={20} py={2}>
       {title}
     </Heading>
     <Box className='basic-set'>
@@ -25,23 +25,7 @@ const ListSection = ({ title, items }) => (
         <Box className='sub-details'>
           <List spacing={1}>
             {item.description.split(',').map((desc, i) => (
-              <ListItem key={i}>{desc}</ListItem>
-            ))}
-          </List>
-        </Box>
-      </Box>
-    ))}
-  </Section>
-);
-
-const Theme1 = (props) => {
-  const { checkProj, checkWork, checkAward } = useContext(ResumeContext)
-  const { themeData, componentRef } = props;
-  const { name, profile, address, phone, email, skill } = themeData.personalData;
-  const { projectTitles, projectDesc } = themeData.projectData;
-  const { educationTitles, educationDesc } = themeData.educationData;
-  const { workTitles, workDesc } = themeData.workData;
-  const { awards } = themeData.awardData;
+              <ListI
 
   const combineData = (titles, desc) => (
     Object.entries(titles).map(([key, title], index) => ({
