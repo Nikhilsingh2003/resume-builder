@@ -1,10 +1,10 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 import './App.css';
 import ResumeState from './Context/ResumeState';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
+import About from './Pages/About/About';
 
 function App() {
   return (
