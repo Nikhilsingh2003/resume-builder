@@ -12,7 +12,7 @@ function App() {
     <ResumeState>
       <div className="App">
         <Helmet>
-          <title>Resume Builder - Create Professional Resumes Online</title>
+          <title>Resume Builder - Create Professional Resumes Online in 10 minutes</title>
           <meta name="description" content="Build and customize professional resumes online with Resume Builder. Choose from a variety of templates and create your perfect resume easily." />
           <meta name="keywords" content="resume builder, professional resumes, online resumes, resume templates" />
           <meta name="author" content="Nikhil Singh" />
